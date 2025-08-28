@@ -1,0 +1,16 @@
+Module,Subsystem,Component,Spec/Model,Qty,Notes
+Water,Intake/Pre-screen,Stainless mesh pre-filter,"200–400 μm mesh, 3–4"" diameter",1,Removable; traps leaves/debris
+Water,Sedimentation,Gravity settling bag/bucket,20–30 L food-grade,1,Let mud settle before filters
+Water,Pre-filter,Non-woven cloth cartridges,50–100 μm; DIY washable,4,Stacked or replaceable sleeves
+Water,Main filter,Slow sand filter column,"PVC/HDPE 4–6"" dia × 70–100 cm",1,Layered gravel/sand; low cost
+Water,Adsorber,Activated carbon bed,"Granular coconut shell AC, ~1–2 kg",1,Removes taste/odor/organics
+Water,Fine filter (Option A),Ceramic/UF candle,0.1–0.5 μm UF or 0.2 μm ceramic,2,Gravity or low-pressure pump assist
+Water,Disinfection,UV-C LED chamber,"265–280 nm, ≥40 mJ/cm² dose",1,Low-power; stainless tube housing
+Water,Optional high salinity kit,RO membrane 75–100 GPD,12V DC pump + membrane + flow restrictor,1,Use only if brackish/salty
+Water,Pumping,Manual diaphragm hand pump,10–15 L/min,1,No power required
+Water,Pumping (electric option),12V DC diaphragm pump,"2–3 bar, 5–10 L/min",1,Runs from battery via fuse
+Water,Sensing,Turbidity + TDS sensors,"Analog/digital, waterproof",1,Quality check; log to MCU
+Water,Storage,Potable water tank,100–200 L HDPE (food-grade),1,With level gauge + vent
+Water,Plumbing,PVC/HDPE pipe & valves,"3/4""–1""; unions + ball valves",1,Modular quick‑disconnects
+Water,Safety,Backflow preventer + check valves,Food-grade,3,Prevent contamination
+Water,Consumables,Soda-lime/bleach for sanitation,As required,1,Surface sanitation; not for dosing

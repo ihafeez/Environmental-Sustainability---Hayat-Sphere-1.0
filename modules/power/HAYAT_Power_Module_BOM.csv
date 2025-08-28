@@ -1,0 +1,16 @@
+Module,Subsystem,Component,Spec/Model,Qty,Notes
+Power,Micro-hydro turbine,Impeller + nozzle + PMA,"Crossflow/Pelton, 100–300 W @ 1–2 m/s flow",1,Inline channel or hose
+Power,Rectification,3‑phase bridge rectifier,"≥20 A, low-drop",1,From PMA to DC bus
+Power,Solar (flex),Flexible PV strips/panels,100–300 Wp total,1,Laminated on top/dome
+Power,Human backup,Hand‑crank generator,50–100 W peak,1,Emergency charging
+Power,Charge control (hydro),DC‑DC MPPT/buck,"Input 20–60 V, output 14.2 V LiFePO₄",1,Open-source preferred
+Power,Charge control (solar),MPPT charge controller,12 V LiFePO₄ profile,1,Common off‑the‑shelf
+Power,Battery,LiFePO₄ pack 12 V,80–150 Ah,1,Long cycle life; BMS integrated
+Power,Protection,Fuses + DC breakers,20–60 A as sized,1,Per source and loads
+Power,Distribution,12 V DC bus bar,Copper + insulated cover,1,Central ground reference
+Power,Conversion (5 V),Buck converters,12 V→5 V USB (20–40 W),2,For MCU/LoRa/lighting
+Power,Conversion (24 V optional),Boost converter,12 V→24 V (100–150 W),1,For RO pump if needed
+Power,Instrumentation,SOC meter + volt/amp meter,Panel or MCU read,1,Energy monitoring
+Power,Wiring,Marine‑grade cables & lugs,2.5–10 mm² sized,1,Color‑coded; crimp tools
+Power,Thermal/Enclosure,IP65 box + heat sinking,Vent with dust filter,1,Electronics protection
+Power,Lighting (aux),12 V LED strips/lamps,5–15 W total,1,Cabin and service lighting
